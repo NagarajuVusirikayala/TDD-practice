@@ -1,0 +1,24 @@
+{
+  "name": "TDD-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NagarajuVusirikayala/TDD-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NagarajuVusirikayala/TDD-practice/issues"
+  },
+  "homepage": "https://github.com/NagarajuVusirikayala/TDD-practice#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  }
+}

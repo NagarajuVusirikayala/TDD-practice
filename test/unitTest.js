@@ -3,14 +3,10 @@ const assert = chai.assert;
 const functions = require('../functions')
 
 describe('sum', function() {
-    it('should return  when adding 2 and 2', function() {
-        assert.equal(functions.sum(2,2), 4);
-    });
-
     it('should return 8 when adding 4 and 4', function() {
         assert.equal(functions.sum(4,4), 8);
     });
-
+    
     it('should return 0 when adding 8 and -8', function() {
         assert.equal(functions.sum(8,-8), 0);
     });

@@ -169,7 +169,6 @@ describe('average', function() {
         assert.notDeepEqual(functions.average(arr), -6);
     });
 
-
     it('should return 0 if the array is [5,10,-15]', function() {
         let arr = [5,10,-15];
         assert.equal(functions.average(arr), 0 );
@@ -187,7 +186,6 @@ describe('smallest', function() {
         assert.equal(functions.smallest(arr), 5);
     });
     
-
     it('should return -15 if the array is [5,-2,-15]', function() {
         let arr = [5,-2,-15];
         assert.equal(functions.smallest(arr), -15 );
@@ -210,7 +208,6 @@ describe('largest', function() {
         assert.equal(functions.largest(arr), 100);
     });
     
-
     it('should return -1 if the array is [-1,-100,-500]', function() {
         let arr = [-1,-100,-500];
         assert.equal(functions.largest(arr), -1 );
